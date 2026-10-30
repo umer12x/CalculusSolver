@@ -12,8 +12,8 @@
   "grad_clip_max_norm": 1.0,
   "max_nonfinite_loss_steps": 5,
   "early_stopping": {
-    "enabled": true,
-    "patience": 6,
+    "enabled": false,
+    "patience": 15,
     "min_delta": 0.0001
   },
   "validation_logging": true,
@@ -40,7 +40,7 @@
   },
   "contrast": {
     "enabled": true,
-    "pairs_per_batch": 4
+    "pairs_per_batch": 6
   },
   "exact_match_eval": {
     "per_epoch_examples": 600,
